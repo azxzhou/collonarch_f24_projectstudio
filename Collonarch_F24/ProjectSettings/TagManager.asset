@@ -4,9 +4,11 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Build
   - No Build
-  - Blocks
+  - BuildArea
+  - Active
+  - Inactive
+  - Build
   layers:
   - Default
   - TransparentFX

@@ -44,12 +44,12 @@ public class MovementScript : MonoBehaviour
         }
     }
 
-    void OnCollisionEnter(Collision collision)
+    /*void OnCollisionEnter(Collision collision)
     {
         Rigidbody rb = collision.gameObject.GetComponent<Rigidbody>();
         rb.velocity = Vector3.zero;
         rb.angularVelocity = Vector3.zero;
-    }
+    }*/
 
     float RoundToNearestGrid(float pos)
     {
